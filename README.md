@@ -29,7 +29,7 @@ THEN I exit the application, and the HTML is generated <br>
 
 ## Screenshot
 
-![](../../../../../../C:/Users/AdemSahil/Documents/bootcamp-class/HomeWork-10/Team%20Generator.PNG)
+![](./Team%20Generator.PNG)
 
 ## Link
 
