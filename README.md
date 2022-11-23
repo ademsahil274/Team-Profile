@@ -33,4 +33,4 @@ THEN I exit the application, and the HTML is generated <br>
 
 ## Link
 
-[Web Link](../../../../../../C:/Users/AdemSahil/Documents/bootcamp-class/HomeWork-10/dist/team.html)
+[Link of generated HTML webpage](http://127.0.0.1:5500/dist/team.html)
