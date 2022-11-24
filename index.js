@@ -5,8 +5,8 @@ const inquirer = require('inquirer');
 const path = require('path');
 const fs = require('fs');
 
-const DIST_DIR = path.resolve(__dirnam, 'dist');
-const distPath = path.join(DIST_DIT, 'team.html');
+const DIST_DIR = path.resolve(__dirname, 'dist');
+const distPath = path.join(DIST_DIR, 'team.html');
 
 const render = require('./src/page-template');
 
@@ -125,13 +125,7 @@ function appMenu() {
                 type: 'input',
                 name: 'engineerGithub',
                 message: "What is the Engineer's GitHub username?",
-                validate: (answer) => {
-                    const pass = answer.match(/\S+@\S+\.\S+/);
-                    if (pass) {
-                        return true;
-                    }
-                    return 'Please enter a valid GitHub username.';
-                },
+                
             },
         ])
         .then((answers) => {
@@ -190,13 +184,7 @@ function appMenu() {
                 type: 'input',
                 name: 'internSchool',
                 message: "What is Intern's school name?",
-                validate: (answer) => {
-                    const pass = answer.match(/\S+@\S+\.\S+/);
-                    if (pass) {
-                        return true;
-                    }
-                    return 'Please enter a valid school name.';
-                },
+                
             },
         ])
         .then((answers) => {
@@ -219,14 +207,11 @@ function appMenu() {
             type: "list",
             message: "What type of employee would you like to add to your team?",
             name: "addEmployeePrompt",
-            choices: ["Manager", "Engineer", "Intern", "No more team members are needed."]
+            choices: ["Engineer", "Intern", "No more team members are needed."]
           }
         ])
           .then(function (userInput) {
             switch(userInput.addEmployeePrompt) {
-              case "Manager":
-                addManager();
-                break;
               case "Engineer":
                 addEngineer();
                 break;
