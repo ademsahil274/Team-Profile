@@ -29,8 +29,8 @@ THEN I exit the application, and the HTML is generated <br>
 
 ## Screenshot
 
-![](./Team%20Generator.PNG)
+![](![Alt text](Team-Generator%20SS.PNG))
 
 ## Link
 
-[Link of generated HTML webpage](http://127.0.0.1:5500/dist/team.html)
+[Please click here for HTML](http://127.0.0.1:5500/dist/team.html)

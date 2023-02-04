@@ -73,7 +73,7 @@ function appMenu() {
         .then((answers) => {
             const manager = new Manager(
                 answers.managerName,
-                answers.mangerId,
+                answers.managerId,
                 answers.managerEmail,
                 answers.managerOfficeNumber,
             );
@@ -88,7 +88,7 @@ function appMenu() {
         inquirer.prompt( [
             {
                 type: 'input',
-                name: 'managerName',
+                name: 'engineerName',
                 message: "What is the Engineer's name?",
                 validate: (answer) => {
                     if (answer !== '') {
