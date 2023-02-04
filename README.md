@@ -31,6 +31,8 @@ THEN I exit the application, and the HTML is generated <br>
 
 ![](![Alt text](Team-Generator%20SS.PNG))
 
-## Link
+## Link & Video
 
 [Please click here for HTML](http://127.0.0.1:5500/dist/team.html)
+
+[Please click here to watch the video](https://drive.google.com/file/d/1DZxixj2mzdL6LgTybFFUkWF3PGRFcX6O/view?usp=sharing)
